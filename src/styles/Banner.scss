@@ -1,0 +1,216 @@
+
+.Banner {
+    width: 100%;
+    flex-grow: initial;
+    float: left;
+  }
+
+  .uploadBannerImg {
+    padding: 30px 0;
+    display: flex;
+    gap: $space;
+  .BannerLeft {
+    p {
+      font-size: $font-size-primary;
+      font-weight: $font_weight_sm;
+      font-family: $font-family;
+      color: $text_cl;
+      margin-top: 0px;
+      opacity: $_opacity-l;
+    }
+  }
+  
+    .fileUploadBanner {
+      width: 360px;
+      height: 950px;
+      border: $_card_border_gray;
+      border-radius: $border-radius;
+      background-color: $_card_background_cl;
+  
+      .BannerFileUploadMob-Web {
+        display: flex;
+      }
+  
+      .BannerFileUploadLt {
+        margin: $space 0;
+        padding: 0 $space;
+
+        p {
+          color: $black;
+          opacity: $_opacity-m;
+          font-size: $font-size-primary;
+          font-weight: $font_weight_lg;
+          font-family: $font-family;
+          margin: $space 0px;
+        }
+        h4 {
+            color: $background-blue;
+            font-size: $font-size-primary;
+            font-weight: $font_weight_lg;
+            font-family: $font-family;
+            margin-top: 0px;
+        }
+        .update_tick {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          justify-content: flex-start;
+          margin: $space 0px 10px 0px;
+        p {
+          color: $black;
+          opacity: $_opacity-m;
+          font-size: $font-size-primary;
+          font-weight: $font_weight_lg;
+          font-family: $font-family;
+          margin: 0px ;
+        }
+      }
+      .edi_controls {
+        @include flex;
+        padding-top: $space;
+        .updatedDimention_Text {
+          text-align: left;
+          p {
+            display: block;
+            text-align: left;
+            line-height: $space;
+            font-size: $font-size-primary;
+            font-family: $font-family;
+            font-weight: $font_weight_sm;
+            color: $_text_edit_p_cl;
+            opacity: $opacity;
+            margin: 0px;
+          }
+        }
+        .edit_controlBtn {
+          @include flex;
+          gap: 5px;
+      }
+      }
+      }
+      .BannerFileUpload {
+        padding: 0px 0px $space 0px;
+        border-bottom:$gray-border;
+        .BannerFileUploadLt-mobile {
+          width: 320px;
+          height: 320px;
+          border:$gray-border;
+          padding-top: 18px;
+          border-radius: $border-radius;
+          background-color: $primary-white;
+      
+          .uploadImg {
+            text-align: center;
+            border-radius: 100%;
+            border:$_uploadImg_border_cl;
+            background-color: $_Image_background_cl;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            margin-top: 60px;
+      
+            img {
+              position: relative;
+              padding-top: 18px;
+            }
+      
+            p {
+              font-size: $font-size-primary;
+              font-weight: $font_weight_lg;
+              font-family: $font-family;
+              color: $background-blue;
+              margin: 0;
+            }
+          }
+          .uploadeDimentions {
+            margin-top: 10px;
+            p {
+              display: block;
+    text-align: center;
+    line-height: $space;
+    font-size: $font-size-primary;
+    font-family: $font-family;
+    font-weight: $font_weight_sm;
+    color: $_text_edit_p_cl;
+    opacity: $opacity;
+    margin: 0px;
+            }
+          }
+        }
+    }
+    .fileUploadLt-mobile {
+      width: 320px;
+      height: 178px;
+      border: $gray-border;
+      padding-top: 18px;
+      margin: auto;
+      border-radius: $border-radius;
+      background-color: $primary-white;
+      .uploadImg {
+        text-align: center;
+        border-radius: 100%;
+        border:$_uploadImg_border_cl;
+        background-color: $_Image_background_cl;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+  
+        img {
+          position: relative;
+          padding-top: 18px;
+        }
+  
+        p {
+          font-size: $font-size-primary;
+          font-weight: $font_weight_lg;
+          font-family: $font-family;
+          color: $background-blue;
+          margin: 0;
+        }
+      }
+      .uploadeDimentions {
+        margin-top: 10px;
+        p {
+          display: block;
+          text-align: center;
+          line-height: $space;
+          font-size: $font-size-primary;
+          font-family: $font-family;
+          font-weight: $font_weight_sm;
+          color: $_text_edit_p_cl;
+          opacity: $opacity;
+          margin: 0;
+        }
+      }
+    }
+    }
+    
+}
+
+
+  .BannerFields {
+    .BannerInput {
+        padding: 0px $space ;
+        h4 {
+            margin-bottom: 6px;
+            font-size: $font-size-primary;
+            font-weight: $font_weight_lg;
+            font-family: $font-family;
+            color: $text_cl;
+            text-transform: capitalize;
+        }
+        .PopUpInput {
+            width: 320px;
+            height: 40px;
+            margin: auto;
+            border-radius: 4px;
+            border: $_input_border;
+            background-color: $primary-white;
+            color: $_input_txt_cl;
+            font-size: $font-size-primary;
+            font-weight: $font_weight_sm;
+            padding: 0px 5px;
+            font-family: $font-family;
+        }
+    }
+  }

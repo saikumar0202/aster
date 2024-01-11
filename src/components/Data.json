@@ -1,0 +1,934 @@
+[
+  {
+    "id": 1,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "createdBy":"Thanvesh",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 2,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 3,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 4,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "QuickBookingBanner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 5,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "InstantBookingBanner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 6,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 7,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 8,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 9,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 10,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 11,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 12,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 13,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 14,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 15,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 16,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 17,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 18,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 19,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 20,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 21,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 22,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 23,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 24,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 25,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 26,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 27,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 28,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 29,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 30,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 31,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 32,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 33,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 34,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 35,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 36,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 37,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 38,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 39,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 40,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 41,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 42,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 43,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 44,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 45,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 46,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 47,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 48,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 49,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 50,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 51,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 52,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 53,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 54,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 55,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 56,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 57,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 58,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 59,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 60,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 61,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 62,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 63,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 64,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 65,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 66,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 67,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 68,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 69,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 70,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 71,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 72,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+
+  {
+    "id": 73,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 74,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 75,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 76,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 77,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 78,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 79,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 80,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 81,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 82,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 83,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 84,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 85,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 86,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 87,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 88,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 89,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 90,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  },
+  {
+    "id": 91,
+    "spanText": "PB",
+    "title": "PromotionalBanner_Campaign-01",
+    "rejectedOn": "24 April",
+    "rejectedBy": "Khitam Jabirah",
+    "componentType": "Promotional Banner",
+    "filterClass": "filterRed",
+    "submition": "Rejected"
+  },
+  {
+    "id": 92,
+    "spanText": "HB",
+    "title": "HeroBanner_Campaign-02",
+    "createdOn": "24 April",
+    "createdBy": "Khitam Jabirah Srour",
+    "componentType": "Hero Banner",
+    "filterClass": "filterAsh",
+    "submition": "Draft"
+  },
+  {
+    "id": 93,
+    "spanText": "2B",
+    "title": "2-in-1Banner_Campaign-01",
+    "publishedOn": "24 April",
+    "publishedBy": "Khitam Jabirah Srour",
+    "componentType": "2-in-1 Banner",
+    "filterClass": "filterGreen",
+    "submition": "Published"
+  }
+]

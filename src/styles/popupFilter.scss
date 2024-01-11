@@ -1,0 +1,146 @@
+// $font-family: 'Mulish';
+// $font-size-primary: 14px;
+// $font-size-secondary: $font-size-secondary;
+// $background-blue: #144D92;
+@import './variables.scss';
+
+.containerBox {
+  border: 1px solid $box_border;
+  width: 865px;
+  height: 360px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: $primary-white;
+  border-radius: $border-radius_sm;
+  display: grid;
+  float: right;
+  grid-template-columns: auto auto auto;
+
+  .box {
+    width: 242px;
+    height: 130px;
+    border: $gray-border;
+    margin: 5px;
+    border-radius: $border-radius;
+    display: flex;
+    padding: 14px;
+    cursor: pointer;
+    &.btnopen {
+      background-color: $_card_background_cl;
+      border: $_card-border_cl;
+    }
+
+    .boxView {
+      margin-left: 15px;
+    }
+
+    .img {
+      display: flex;
+    }
+  }
+
+
+  h4 {
+    margin: 8px 0 0;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: $font-size-secondary;
+    font-weight: $font_weight_xl;
+    font-family: $font-family;
+    color: $background-blue;
+  }
+
+  p {
+    color: $black;
+    text-align: start;
+    margin: 0;
+    font-size: $font-size-primary;
+    font-weight: $font_weight_sm;
+    font-family: $font-family;
+    color: $background-blue;
+  }
+}
+
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input[type="radio"]:checked::before {
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  display: block;
+  width: 20px;
+  height: auto;
+  background-color: $background-blue;
+  cursor: $cursor;
+  top: 30%
+}
+
+.popUpBox {
+  .popUpHead {
+    @include flex;
+    margin-bottom: 8px;
+  }
+
+  .popUpLeft h2 {
+    font-size: $font-size-lg;
+    font-family: $font-family;
+    color: $background-blue;
+    text-transform: capitalize;
+  }
+
+  .popUpRight {
+    display: inline-block;
+    width: 50%;
+    margin-block: auto;
+  }
+
+  .PopUpInput {
+    border-radius: $border-radius_sm;
+    border: $_popUp_border;
+    width: 82%;
+    padding: 5px 36px;
+    height: 30px;
+  }
+
+  span.material-symbols-outlined {
+    position: absolute;
+    top: 38px;
+    background: none;
+    color: $text_cl;
+    opacity: 0.4;
+    padding-left: 10px;
+  }
+}
+
+.btn {
+  float: right;
+  padding: 10px 0px 0px;
+
+  Button {
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-size: $font-size-primary;
+    font-weight: $font_weight_sm;
+    font-family: $font-family;
+    color: $black;
+  }
+
+  .createBtn {
+    border-radius: $border-radius;
+    border: $btn-border;
+    padding: 14px;
+    background-color: $btn_bg_cl;
+    color: $background-blue;
+    text-transform: capitalize;
+    font-size: $font-size-primary;
+    font-family: $font-family;
+    font-weight: $font_weight_xl;
+
+  }
+}

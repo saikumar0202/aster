@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+@import './styles/header.scss';
+@import './styles/sideNavBar.scss';
+@import './styles/main.scss';
+@import './styles/newComponent.scss';
+@import './styles/popupFilter.scss';
+@import './styles/heroBanner.scss';
+@import './styles/Banner.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+}
+code {
+  font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+
+
+

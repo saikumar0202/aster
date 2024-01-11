@@ -1,0 +1,121 @@
+@import './variables.scss';
+
+.sideNav_panal {
+  width: 23%;
+  float: left;
+  background-color: #FBFDFF;
+  h4 {
+    margin: 35px 0px 0px 5px;
+    font-family: $font-family;
+    font-size: $font-size-secondary;
+    font-weight: $font-weight-lg;
+    text-transform: uppercase;
+  }
+
+  img {
+    margin-left: 10px;
+  }
+}
+
+.sideNavigation {
+  display: grid;
+
+  label {
+    width: 100%;
+    width: -webkit-fill-available;
+    border-bottom: $_fitlter_border;
+    padding: 23px 10px;
+    font-size: $small-text;
+    font-weight: $font-weight-lg;
+    font-style: normal;
+    color: $sideNav_txt_cl;
+    letter-spacing: 0.02em;
+    font-family: $font-family;
+    align-items: center;
+    text-transform: uppercase;
+    display: inline-flex;
+    cursor: $cursor;
+  }
+}
+
+.sidenavIcon {
+  display: grid;
+
+  .side_Label {
+    border-bottom: $gray-border;
+    padding: 22px 5px; 
+     label {
+      font-size: $font-size-primary;
+      font-weight: $font-weight-sm;
+      font-style: normal;
+      border: none;
+      padding: 0;
+      color: $background-blue;
+      letter-spacing: 0.02em;
+      font-family: $font-family;
+      align-items: center;
+      cursor: pointer;
+      text-transform: capitalize;
+      display: inline-flex;
+      padding: 10px 20px 10px 15px;
+        &:hover {
+          background-color: $background-blue;
+          color: $primary-white;
+          width : 200px;
+          border-radius: $border-radius;
+          display: inline-flex;
+        }
+      }
+
+  }
+}
+
+.sidenavIcon .side_Lable:nth-child(2) label {
+  background-color: $background-blue;
+  color: $primary-white;
+  width: 200px;
+  padding: 10px 20px 10px 15px;
+  border-radius: $border-radius;
+  display: inline-flex;
+}
+
+
+.settings {
+  h3 {
+    color: $sideNav_txt_cl;
+    font-size: $small-text;
+    font-weight: $font-weight-lg;
+    font-family: $font-family;
+    text-transform: uppercase;
+    margin: 30px 10px 10px 10px;
+  }
+  ul {
+    margin: auto;
+    padding: 0;
+    color: $background-blue;
+  }
+
+  label {
+    padding: 10px 20px 10px 20px;
+    list-style: none;
+    display: flex;
+    font-size: $font-size-primary;
+    font-weight: $font-weight-sm;
+    text-transform: capitalize;
+    align-items: center;
+    cursor: $cursor;
+    width: 200px;
+    span {
+      margin-right: 10px;
+      display: inline-block;
+      position: relative;
+    }
+
+    &:hover {
+      background-color: $background-blue;
+      color: $primary-white ;    
+      border-radius : $border-radius;
+      padding: 10px, 20px, 10px, 35px;
+    }
+  }
+}

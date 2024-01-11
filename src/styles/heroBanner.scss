@@ -1,0 +1,604 @@
+/* Dashbord */
+
+// $border-radius :10px;
+// $font-family: 'Mulish';
+// $font-size-primary: 14px;
+// $font-size-secondary: 16px;
+// $black : #000000;
+// $small-text: 12px;
+// $primary-white: #ffffff;
+// $blue : #144D92;
+// $gray-border: rgba(0, 0, 0, 0.08);
+@import './variables.scss';
+
+.header_DashBord {
+  width: 100%;
+  flex-grow: initial;
+  float: left;
+}
+
+.DashBordSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+  background-color: $header_bg_cl;
+  flex-direction: column;
+
+  .Left {
+    display: flex;
+
+    .Dashbtn {
+      @include bg_white_btn;
+    }
+
+    .saveBtn {
+      @extend .Dashbtn;
+      color: $black;
+    }
+  }
+}
+
+.Right {
+  .btn {
+    @include bg_white_btn;
+    margin: 0px;
+  }
+}
+
+
+
+.addInput {
+  display: flex;
+  padding: 30px 0;
+  border-bottom: $gray-border;
+
+  .InputBanner {
+    width: 60%;
+
+    h4 {
+      margin: 0px 0px 5px 0px;
+      font-size: $font-size-primary;
+      font-family: $font-family;
+      color: $text_cl;
+      font-weight: $font_weight_xl
+    }
+
+    input {
+      width: 95%;
+      height: 40px;
+      border: $_input_border;
+      border-radius: 4px;
+      color: $text_cl;
+      font-size: $font-size-primary;
+      padding: 0px 5px;
+    }
+  }
+
+  .heroBanner {
+    p {
+      font-size: $font-size-primary;
+      font-family: $font-family;
+      font-weight: $font_weight_sm;
+      color: $_text_h4_cl;
+      margin: 0 0 8px 0;
+      ;
+    }
+
+    span {
+      text-transform: capitalize;
+      font-size: $font-size-primary;
+      font-family: $font-family;
+      font-weight: $font_weight_sm;
+      color: $black;
+    }
+  }
+}
+
+.uploadBannerHead {
+  display: flex;
+  gap: 30px;
+  padding: 30px 0 0 0px;
+  p {
+    text-transform: capitalize;
+    font-size: $font-size-secondary;
+    font-weight: $font_weight_xl;
+    color: $_text_h4_cl;
+    margin: 0;
+  }
+
+  span {
+    font-size: $font-size-primary;
+    font-weight: $font_weight_sm;
+    font-family: $font-family;
+    color: $_text_h4_cl;
+  }
+  .createdView {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 15px;
+    gap: 30px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: $select_input_border;
+    background-color: $viewMode_bg_cl;
+    h6 {
+      display: flex;
+      background: none;
+      border: none;
+      font-size: $small-text;
+      font-family: $font-family;
+      font-weight: $font_weight_xl;
+      color: $sideNav_txt_cl;
+      margin: 0px;
+    }
+     p {
+      font-size: $small-text;
+      font-weight: $font_weight_sm;
+      color: $sideNav_txt_cl;
+      font-family: $font-family;
+      margin-left: 4px;
+      text-transform: none;
+    }
+  } 
+}
+
+.uploadBanner {
+  padding-top: 30px;
+
+  p {
+    font-size: $font-size-primary;
+    font-weight: $font_weight_sm;
+    font-family: $font-family;
+    color: $text_cl;
+    opacity: $opacity;
+  }
+
+  .fileUpload {
+    width: 810px;
+    height: 518px;
+    border: $_card_border_gray;
+    border-radius: $border-radius;
+    background-color: $_card_background_cl;
+
+    .fileUploadMob-Web {
+      display: flex;
+    }
+
+    .fileUploadLt {
+      width: 48%;
+      margin: 20px 0;
+      padding: 0 20px;
+
+      &:first-child {
+        border-right: $gray-border;
+      }
+      .update_tick {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+      p {
+        color: $black;
+        opacity: $_opacity-m;
+        font-size: $font-size-primary;
+        font-weight: $font_weight_lg;
+        font-family: $font-family;
+        margin: 0px ;
+      }
+    }
+    }
+  }
+
+  
+  .fileUploadLt-mobile {
+    width: 359px;
+    height: 178px;
+    border: $gray-border;
+    padding-top: 18px;
+    margin: auto;
+    border-radius: $border-radius;
+    background-color: $primary-white;
+    &.error {
+      border: $error;
+    }
+
+    .uploadeDimentions {
+      margin-top: 10px;
+
+      p {
+        display: block;
+        text-align: center;
+        line-height: 20px;
+        font-size: $font-size-primary;
+        font-family: $font-family;
+        font-weight: $font_weight_sm;
+        color: $_text_edit_p_cl;
+        opacity: $opacity;
+        margin: 0px;
+      }
+    }
+
+    .uploadImg {
+      text-align: center;
+      border-radius: 100%;
+      border: $_uploadImg_border_cl;
+      background-color: $_Image_background_cl;
+      width: 100px;
+      height: 100px;
+      margin: auto;
+
+      img {
+        position: relative;
+        padding-top: 18px;
+      }
+
+      p {
+        font-size: $font-size-primary;
+        font-weight: $font_weight_lg;
+        font-family: $font-family;
+        color: $background-blue;
+        margin: 0;
+      }
+    }
+    .edi_controls {
+      @include flex;
+      padding-top: 20px;
+      .updatedDimention_Text {
+        text-align: left;
+        p {
+          display: block;
+          text-align: left;
+          line-height: 20px;
+          font-size: $font-size-primary;
+          font-family: $font-family;
+          font-weight: $font_weight_sm;
+          color: $_text_edit_p_cl;
+          opacity: $opacity;
+          margin: 0px;
+        }
+      }
+      .edit_controlBtn {
+        @include flex;
+        gap: 5px;
+    }
+    }
+  }
+  
+}
+
+.InputLinkMobile {
+  h4 {
+    margin-bottom: 6px;
+    font-size: $font-size-primary;
+    font-weight: $font_weight_xl;
+    font-family: $font-family;
+    color: $text_cl;
+    text-transform: capitalize;
+  }
+
+  .PopUpInput {
+    width: 359px;
+    height: 40px;
+    margin: auto;
+    border-radius: 4px;
+    border: $_input_border;
+    background-color: $primary-white;
+    color: $_input_txt_cl;
+    font-size: $font-size-primary;
+    font-weight: $font_weight_sm;
+    font-family: $font-family;
+    &.error {
+      border: $error;
+    }
+  }
+}
+
+
+.fileUploadRt {
+  width: 48%;
+  margin: 20px 0;
+  padding: 0 20px;
+
+  &:first-child {
+    border-right: $gray-border;
+  }
+  .update_tick {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  p {
+    color: $black;
+    opacity: $_opacity-m;
+    font-size: $font-size-primary;
+    font-weight: $font_weight_lg;
+    font-family: $font-family;
+    margin: 0px ;
+  }
+}
+}
+
+.fileUploadRt-web {
+  width: 359px;
+  height: 178px;
+  border: $_card_border_gray;
+  padding-top: 18px;
+  margin: auto;
+  border-radius: $border-radius;
+  background-color: $primary-white;
+
+  a {
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    font-size: $font-size-primary;
+    font-family: $font-family;
+    font-weight: $font_weight_sm;
+    color: $_text_edit_p_cl;
+  }
+
+  .uploadImg {
+    text-align: center;
+    border-radius: 100%;
+    border: $_uploadImg_border_cl;
+    background-color: $_Image_background_cl;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+
+    img {
+      position: relative;
+      padding-top: 18px;
+    }
+
+    p {
+      font-size: $font-size-primary;
+      font-weight: $font_weight_lg;
+      font-family: $font-family;
+      color: $background-blue;
+      margin: 0;
+    }
+
+    h4 {
+      color: $background-blue;
+      font-size: $font-size-primary;
+      font-weight: $font_weight_lg;
+      font-family: $font-family;
+      margin-top: 0px;
+    }
+  }
+
+  .uploadeDimentions {
+    margin-top: 10px;
+
+    p {
+      display: block;
+      text-align: center;
+      line-height: 20px;
+      font-size: $font-size-primary;
+      font-family: $font-family;
+      font-weight: $font_weight_sm;
+      color: $_text_edit_p_cl;
+      opacity: $opacity;
+      margin: 0px;
+    }
+  }
+}
+
+.InputLinkWeb {
+  h4 {
+    margin-bottom: 6px;
+    font-size: $font-size-primary;
+    font-weight: $font_weight_xl;
+    font-family: $font-family;
+    color: $text_cl;
+  }
+
+  .PopUpInput {
+    width: 359px;
+    height: 40px;
+    margin: auto;
+    border-radius: 4px;
+    border: $_input_border;
+    background-color: $primary-white;
+    color: $black;
+    font-family: $font-family;
+    &.error {
+      border: $error;
+    }
+  }
+}
+
+.BottomInput {
+  display: flex;
+  gap: 20px;
+  border-top: $gray-border;
+  margin: 0px 20px;
+
+  .LeftSelect {
+    p {
+      margin: 18px 0px 5px 0px;
+      text-transform: capitalize;
+      font-family: $font-family;
+      font-weight: $font_weight_xl;
+      font-size: $font-size-primary;
+    }
+
+    select {
+      width: 90px;
+      height: 40px;
+      border: $_input_border;
+      background-color: $primary-white;
+      background-image: url(../images/icon.svg);
+      margin: 0;
+      border-radius: 4px;
+      font: normal 14px Arial, sans-serif;
+      line-height: 1;
+      -webkit-appearance: none;
+      appearance: none;
+      background-size: 1em;
+      background-position: right 0.5em center;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+  }
+
+  .RightSelect {
+    p {
+      margin: 18px 0px 5px 0px;
+      text-transform: capitalize;
+      font-family: $font-family;
+      font-weight: $font_weight_xl;
+      font-size: $font-size-primary;
+
+    }
+
+    input {
+      width: 648px;
+      height: 36px;
+      border-radius: 4px;
+      border: $_input_border;
+      background-color: $primary-white;
+      color: $_input_txt_cl;
+      font-size: $font-size-primary;
+      font-weight: $font_weight_sm;
+      font-family: $font-family;
+      padding-left: 10px;
+    }
+  }
+}
+
+.DltBtn {
+  float: right;
+  display: flex;
+  padding: 20px;
+
+  button {
+    @include bg_white_btn;
+    padding: 10px 14px;
+    margin: 0px;
+  }
+}
+
+.AddSlide {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  button {
+    @include all-btn;
+    span {
+      padding: 0 5px;
+      border-radius: 50%;
+      background: $primary-white;
+      margin-right: 10px;
+      text-align: center;
+      color: $background-blue;
+    }
+  }
+
+  .recordSave {
+    label {
+      @include bg_white_btn;
+      line-height: 0px;
+      padding: 11px 14px;
+      gap: 5px;
+      margin: 0px;
+      color:#03AE00;
+      p{
+        margin: 0px;
+      }
+  }
+}
+}
+
+
+// Discard Modal Box //
+.boxModal {
+  border-radius: $border-radius;
+  width: 500px !important;
+  height: auto;
+
+  h2 {
+    font-size: $font-size-lg;
+    font-weight: $font_weight_xl;
+    font-family: $font-family;
+    color: $background-blue;
+  }
+
+  p {
+    font-size: $font-size-secondary;
+    font-weight: $font_weight_sm;
+    font-family: $font-family;
+    color: $model_txt_cl;
+  }
+
+  .btn {
+    padding-top: 30px;
+
+    .Canclebtn {
+      padding: 14px;
+      background: none;
+      outline: none;
+      text-transform: capitalize;
+      font-family: $font-family;
+      font-weight: $font_weight_sm;
+      border: none;
+      font-family: $font-size-primary;
+    }
+
+    .discardBtn {
+      padding: 14px;
+      border-radius: $border-radius;
+      background-color: $btn_bg_cl;
+      color: $background-blue;
+      text-transform: capitalize;
+      border: $btn-border;
+      font-size: $font-size-primary;
+      font-family: $font-family;
+      font-weight: $font_weight_xl;
+
+    }
+  }
+}
+
+
+// For PromotinaolBanner styles//
+
+.RightSelect {
+
+  p {
+    margin: 18px 0px 5px 0px;
+    text-transform: capitalize;
+    font-family: $font-family;
+    font-weight: $font_weight_xl;
+    font-size: $font-size-primary;
+
+  }
+
+  input {
+    width: 758px;
+    height: 36px;
+    border-radius: 4px;
+    border: $_input_border;
+    background-color: $primary-white;
+    color: $_input_txt_cl;
+    font-size: $font-size-primary;
+    font-weight: $font_weight_sm;
+    font-family: $font-family;
+    padding-left: 10px;
+  }
+}
+
+.PromotionalInput {
+  width: 758px !important;
+  height: 36px;
+}
+
+

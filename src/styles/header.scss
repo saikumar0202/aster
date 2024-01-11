@@ -1,0 +1,132 @@
+@import './variables.scss';
+@import './buttons.scss';
+
+.header_Search {
+  background-color: #F2F8FE;
+  float: left;
+  width: 77%;
+  .input_SearchIcon {
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    span.material-symbols-outlined {
+      position: absolute;
+      top: 40px;
+      background: none;
+      color: $text_cl;
+      opacity: 0.2;
+      padding-left: 10px;
+    }
+    input {
+      border-radius: $border-radius_sm;
+      border: $_input_border;
+      width: 65%;
+      padding: 5px 36px;
+      height: 30px;
+    }
+  }
+  button {
+    @include all-btn;
+    span {
+      padding: 0 5px;
+      border-radius: 50%;
+      background: $primary-white;
+      margin-right: 10px;
+      text-align: center;
+      color: $background-blue;
+    }
+  }
+}
+.uploadBanner {
+  p {
+    font-size: $font-size-primary;
+    font-weight: $font_weight_lg;
+    font-family: $font-family;
+    color: $black;
+    margin-top: 0px;
+    opacity: $_opacity-m;
+  }
+  .fileUpload_Main {
+    width: 810px;
+    height: 460px;
+    border: $_card_border_gray;
+    border-radius: 10px;
+    background-color: $_card_background_cl;
+
+    .fileUploadMob-Web {
+      display: flex;
+    }
+
+    .fileUploadLt {
+      width: 48%;
+      margin: 20px 0;
+      padding: 0 20px;
+
+      &:first-child {
+        border-right: $gray-border;
+      }
+      .update_tick {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+      p {
+        color: $black;
+        opacity: $_opacity-m;
+        font-size: $font-size-primary;
+        font-weight: $font_weight_lg;
+        font-family: $font-family;
+        margin: 0px ;
+      }
+    }
+
+    }
+  }
+
+  .fileUploadLt-mobile {
+    width: 359px;
+    height: 178px;
+    border: $_card_border_gray;
+    padding-top: 18px;
+    margin: auto;
+    border-radius: $border-radius;
+    background-color: $primary-white;
+    a {
+      display: block;
+      text-align: center;
+      line-height: 20px;
+      font-size: $font-size-primary;
+      font-family: $font-family;
+      font-weight: $font_weight_sm;
+      color: rgba(3, 26, 50, 0.4);
+    }
+    .uploadImg {
+      text-align: center;
+      border-radius: 100%;
+      border: $_uploadImg_border_cl;
+      background-color: $_Image_background_cl;
+      width: 100px;
+      height: 100px;
+      margin: auto;
+      img {
+        position: relative;
+        padding-top: 18px;
+      }
+      p {
+        font-size: $font-size-primary;
+        font-weight: $font_weight_lg;
+        font-family: $font-family;
+        color: $background-blue;
+        margin: 0;
+      }
+      h4 {
+        font-size: $font-size-primary;
+        font-weight: $font_weight_lg;
+        font-family: $font-family;
+        color: $background-blue;
+        margin-top: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@mixin all-btn($theme: #144D92) {
+    background-color: $theme;
+    color: $primary-white;
+    border-radius: $border-radius;
+    font-size: $font-size-primary;
+    font-weight: $font_weight_xl;
+    padding: 11px 14px;
+    font-family: $font-family;
+    border: none;
+    cursor: $cursor;
+}
+@mixin bg_white_btn ($theme: rgb(254, 254, 254)) {
+    display: flex;
+    line-height: 24px;
+    padding: 14px;
+    align-items: center;
+    border: 1px solid rgba(235, 235, 235, 1);
+    border-radius: $border-radius;
+    margin-right: 15px;
+    background: rgba(254, 254, 254, 1);
+    font-size: $font-size-primary;
+    font-family: $font-family;
+    font-weight: $font_weight_xl;
+    cursor: pointer;
+}
+@mixin recordBtn ($color: #ED0E0E) {
+    color: #ED0E0E;
+    font-weight: $font_weight_xl;
+    border: $gray-border;
+    text-transform: uppercase;
+    background-color: #FEF5F5;
+    line-height: 12px;
+    padding: 2px;
+    margin-left: 80px;
+    border-radius: 4px;
+    font-size: $small-text;
+    text-wrap: nowrap;
+}

@@ -1,0 +1,276 @@
+// $border-radius :10px;
+// $font-family: 'Mulish';
+// $font-size-primary: 14px;
+// $font-size-secondary: $font-size-secondary;
+// $black : #000000;
+// $small-text: 12px;
+// $primary-white: #ffffff;
+// $blue : #144D92;
+// $gray-border: #ccc;
+
+@import './variables.scss';
+
+// @import './buttons.scss';
+.addNew_Component {
+  float: left;
+  width: 77%;
+
+  .topSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    background-color: $header_bg_cl;
+  }
+
+  .newLeft {
+    display: flex;
+  }
+
+  .back {
+    @include bg_white_btn;
+  }
+
+  .saveDisable {
+    @include bg_white_btn ($theme: $btn_background);
+    opacity: $_opacity-s;
+  }
+
+}
+
+.newRight {
+  .btn {
+    @include bg_white_btn;
+    
+  }
+}
+.promotionalBanner {
+  padding: 20px 30px;
+.allComponents {
+  border-bottom: 1px solid $box_border;
+  line-height: $font-size-secondary;
+
+  p {
+    display: inline-block;
+    text-decoration: none;
+    color: $sideNav_txt_cl;
+    font-size: $font-size-secondary;
+    font-weight: $font_weight_sm;
+    font-family: $font-family;
+    cursor: $cursor;
+
+    &:first-child {
+      color: $background-blue;
+    }
+
+    &:hover {
+      color: $background-blue;
+    }
+  }
+
+}
+
+.addComponent {
+  padding: 40px 0px;
+  border-bottom: 1px solid $box_border;
+  button {
+   @include all-btn;
+  }
+
+  h4 {
+    font-size: $font-size-secondary;
+    font-weight: $font_weight_xl;
+    font-family: $font-family;
+    color: $_text_h4_cl;
+    margin: 0px 0px 5px 0px;
+  }
+
+  p {
+    font-size: $font-size-primary;
+    font-family: $font-family;
+    color: $_text_h4_cl;
+    font-weight: $font_weight_sm;
+    margin-top: 0px;
+  }
+
+  span {
+    padding: 0 5px;
+    border-radius: 50%;
+    background: $primary-white;
+    margin-right: 10px;
+    text-align: center;
+    color: $background-blue;
+  }
+}
+}
+
+
+
+
+.Updated_image_Container {
+  padding: 0px 20px;
+  img{
+    width: 100%;
+    height: 100px;
+    border-radius: 6px;
+  }
+}
+
+.custom-file-input {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: $cursor;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  h4 {
+    text-align: center;
+  }
+  input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    cursor: $cursor;
+  }
+}
+.fileUploadLt-mobile {
+.edi_controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  .updatedDimention_Text {
+    text-align: left;
+    p {
+      display: block;
+      text-align: left;
+      line-height: 20px;
+      font-size: $font-size-primary;
+      font-family: $font-family;
+      font-weight: $font_weight_sm;
+      color: $_text_edit_p_cl;
+      opacity: $opacity;
+      margin: 0px;
+    }
+  }
+  .edit_controlBtn {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+}
+}
+.boxModalEdit {
+  width: 740px;
+  height: 566px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: $reacrd_span_cl;
+  border-radius: $border-radius; 
+  h2 {
+    font-size: $font-size-lg;
+    font-weight: $font_weight_xl;
+    color: $background-blue;
+    margin-bottom: 20px;
+    font-family: $font-family;
+  }
+  .editBtn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    .Canclebtn {
+      font-size: $font-size-primary;
+      font-weight: $font_weight_sm;
+      color: $black;
+     border: none;
+    background: none;
+    }
+    .discardBtn {
+      @include bg_white_btn;
+      color: $background-blue;
+      height: 46px;
+    }
+  }
+}
+.editUpdated_content {
+  width: 100%;
+  display: flex;
+  gap: $space;
+  padding-bottom: 6em;
+  .editImage {
+    width: 50%;
+    .edit_image_Container {
+          img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            margin-bottom: $space;
+          }
+      .edit_controls {
+        @include flex;
+        .updatedDimention_Text p {
+          display: block;
+      text-align: left;
+      line-height: $space;
+      font-size: $font-size-primary;
+      font-family: $font-family;
+      font-weight: $font_weight_sm;
+      color: $_text_edit_p_cl;
+      opacity: $opacity;
+      margin: 0px;
+        }
+        .edit_controlBtn {
+          @include flex;
+          gap: 5px;
+        }
+      }
+    }
+  }
+  .EditInput_content {
+    width: 50%;
+    padding: 20px;
+    border: $gray-border;
+    background-color: $primary-white;
+    border-radius: $border-radius_sm;
+    .editInput_dimentions {
+     
+      .dimentions_text {
+        @include flex;
+        border-bottom: $gray-border;
+        label {
+          font-size: $font-size-primary;
+          font-weight: $font_weight_xl;
+          font-family: $font-family;
+          color: $text_cl;       
+        }
+        p {
+          font-size: $font-size-primary;
+          font-weight: $font_weight_sm;
+          font-family: $font-family;
+          color: $sideNav_txt_cl; 
+          margin: 3px 0px 20px;
+        }
+      }
+      .dimentions_input_field {
+        h4 {
+          font-size: $font-size-primary;
+          font-weight: $font_weight_xl;
+          font-family: $font-family;
+          color: $text_cl;
+          margin-bottom: 4px;
+        }
+        input {
+          @include Input;
+        }
+      }
+    }
+  }
+}

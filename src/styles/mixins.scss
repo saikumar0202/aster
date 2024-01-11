@@ -1,0 +1,15 @@
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin Input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    border: $_input_border;
+    border-radius: $border-radius_l;
+    color: $text_cl;
+    width: -webkit-fill-available;
+}
